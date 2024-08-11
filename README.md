@@ -5,7 +5,7 @@ CloudUploader is a command-line interface (CLI) tool designed to simplify upload
 - S3 General purpose bucket is the default bucket type that is used for the majority of use cases in S3. General purpose buckets support all S3 features and most storage classes.You can store any number of objects in a bucket and can have up to 100 buckets in your account. 
 # Features
 
-- Easy authentication with Azure.
+- Easy authentication with AWS.
 - Multiple files Upload directly to your S3 Bucket.
 
   ## Installation
@@ -29,12 +29,12 @@ AWS credentials can be skipped if credentials are good ,else the script handles 
 
 ## Usage 
 
-To upload a file to Azure Blob Storage, use the following command:
+To upload a file to AWS  S3, use the following command:
 
 ```bash
 ./clouduploader.sh /path/to/file
 ```
-To upload multiple files to Azure Blob Storage, use the following command:
+To upload multiple files to AWS S3, use the following command:
 
 ```bash
 ./clouduploader.sh /path/to/file1 /path/to/file2 ...
